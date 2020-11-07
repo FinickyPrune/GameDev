@@ -72,3 +72,10 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+MiPan/Content/ModSci_Engineer/*
+MiPan/Content/ModSci_EngiProps/*
+MiPan/Content/ModSciInteriors/*
+
+StarterContent/*
+
