@@ -7216,3 +7216,93 @@ Make sure 'ForkWall_C' has been compiled for  Set isCompleted
 [2020.11.07-06.08.22:688][471]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
 [2020.11.07-06.10.09:631][559]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
 [2020.11.07-06.10.09:631][559]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.07-06.13.02:780][145]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.07-06.13.02:780][145]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.07-06.14.41:617][560]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2020.11.07-06.14.41:657][560]LogSavePackage: Moving '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Saved/ThirdPersonExampleMap72892E50431798AF22AE95B6F148FEAC.tmp' to '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2020.11.07-06.14.41:746][560]LogSavePackage: Moving '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Saved/ThirdPersonExampleMap_BuiltDataD4A0EE79448B96F953AA11B0A44AD9CB.tmp' to '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.11.07-06.14.41:763][560]AssetCheck: New page: Asset Save: multiple assets
+[2020.11.07-06.14.41:763][560]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.11.07-06.14.41:763][560]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2020.11.07-06.15.27:714][732]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2020.11.07-06.15.27:788][732]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2020.11.07-06.15.28:616][818]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.11.07-06.15.28:616][818]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.07-06.15.36:702][726]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lab/ScratButton" FILE="../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Content/Lab/ScratButton.uasset" SILENT=true
+[2020.11.07-06.15.36:722][726]LogSavePackage: Moving '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Saved/ScratButtonD2F6AE434DE996BFA01F75B42714C747.tmp' to '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Content/Lab/ScratButton.uasset'
+[2020.11.07-06.15.36:737][726]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Lab/ScratButton.
+[2020.11.07-06.15.36:746][726]AssetCheck: New page: Asset Save: ScratButton
+[2020.11.07-06.15.36:746][726]LogContentValidation: Display: Validating Blueprint /Game/Lab/ScratButton.ScratButton
+[2020.11.07-06.15.37:674][825]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.11.07-06.15.37:674][825]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2020.11.07-06.15.37:674][825]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.07-06.15.39:760][ 40]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Kitchen/ForkWall" FILE="../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Content/Kitchen/ForkWall.uasset" SILENT=true
+[2020.11.07-06.15.39:779][ 40]LogSavePackage: Moving '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Saved/ForkWall845A14C6420AA46EC5033FBA3668D1C0.tmp' to '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Content/Kitchen/ForkWall.uasset'
+[2020.11.07-06.15.39:796][ 40]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Kitchen/ForkWall.
+[2020.11.07-06.15.39:828][ 40]AssetCheck: New page: Asset Save: ForkWall
+[2020.11.07-06.15.39:828][ 40]LogContentValidation: Display: Validating Blueprint /Game/Kitchen/ForkWall.ForkWall
+[2020.11.07-06.15.40:517][111]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.11.07-06.15.40:517][111]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2020.11.07-06.15.40:517][111]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.07-06.15.41:847][242]BlueprintLog: New page: Compile Fork
+[2020.11.07-06.15.41:900][242]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2020.11.07-06.15.43:042][367]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.11.07-06.15.43:042][367]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2020.11.07-06.15.43:042][367]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.07-06.15.43:864][456]BlueprintLog: New page: Compile LightSwitch_BP
+[2020.11.07-06.15.43:905][456]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2020.11.07-06.15.44:621][530]LogSavePackage: Moving '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Saved/LightSwitch_BP4A64715A48B0183231296EBBED9608F1.tmp' to '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Content/ThirdPersonBP/Blueprints/LightSwitch_BP.uasset'
+[2020.11.07-06.15.44:639][530]AssetCheck: New page: Asset Save: LightSwitch_BP
+[2020.11.07-06.15.44:639][530]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/LightSwitch_BP.LightSwitch_BP
+[2020.11.07-06.15.45:107][583]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.11.07-06.15.45:107][583]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.11.07-06.15.45:107][583]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.07-06.15.47:551][826]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2020.11.07-06.15.47:582][826]LogSavePackage: Moving '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Saved/ThirdPersonExampleMapE162E11B46FEA272EA18A480BF0BF2C5.tmp' to '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2020.11.07-06.15.47:667][826]LogSavePackage: Moving '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Saved/ThirdPersonExampleMap_BuiltData19DB903740F4AF88B8459AA193966972.tmp' to '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.11.07-06.15.47:684][826]AssetCheck: New page: Asset Save: multiple assets
+[2020.11.07-06.15.47:684][826]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.11.07-06.15.47:684][826]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2020.11.07-06.16.13:039][766]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2020.11.07-06.16.13:073][766]LogSavePackage: Moving '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Saved/ThirdPersonExampleMap625FDD1A41960B667F3E8BB8075FD4CA.tmp' to '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2020.11.07-06.16.13:159][766]LogSavePackage: Moving '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Saved/ThirdPersonExampleMap_BuiltData2176B0F748DF2ACB2F2390A932ECC614.tmp' to '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.11.07-06.16.13:175][766]AssetCheck: New page: Asset Save: multiple assets
+[2020.11.07-06.16.13:175][766]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.11.07-06.16.13:175][766]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2020.11.07-06.16.13:635][815]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2020.11.07-06.16.13:664][815]LogSavePackage: Moving '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Saved/ThirdPersonExampleMap0C3E47EF4BA2D815DB1F67B309B25E68.tmp' to '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2020.11.07-06.16.13:748][815]LogSavePackage: Moving '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Saved/ThirdPersonExampleMap_BuiltDataE42220784656E96FDE63A79BA366E048.tmp' to '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.11.07-06.16.13:763][815]AssetCheck: New page: Asset Save: multiple assets
+[2020.11.07-06.16.13:763][815]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.11.07-06.16.13:763][815]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2020.11.07-06.16.14:119][853]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2020.11.07-06.16.14:148][853]LogSavePackage: Moving '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Saved/ThirdPersonExampleMapEF9177B143A853ED37C152A6C6D96159.tmp' to '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2020.11.07-06.16.14:233][853]LogSavePackage: Moving '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Saved/ThirdPersonExampleMap_BuiltData86F0F8F548FC4A2CE0A892B35DC80615.tmp' to '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.11.07-06.16.14:247][853]AssetCheck: New page: Asset Save: multiple assets
+[2020.11.07-06.16.14:247][853]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.11.07-06.16.14:247][853]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2020.11.07-06.16.14:667][899]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2020.11.07-06.16.14:696][899]LogSavePackage: Moving '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Saved/ThirdPersonExampleMap2D0F7E0041B8297ECEF087A9063D0BA5.tmp' to '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2020.11.07-06.16.14:780][899]LogSavePackage: Moving '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Saved/ThirdPersonExampleMap_BuiltData1F81F7324B4A20CEF1615991202E6A21.tmp' to '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.11.07-06.16.14:795][899]AssetCheck: New page: Asset Save: multiple assets
+[2020.11.07-06.16.14:795][899]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.11.07-06.16.14:795][899]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2020.11.07-06.16.21:374][674]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2020.11.07-06.16.21:449][674]LogSavePackage: Moving '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Saved/ThirdPersonCharacter6586128F448456D03D3E629D66EF8236.tmp' to '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2020.11.07-06.16.21:480][674]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lab/Scrat" FILE="../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Content/Lab/Scrat.uasset" SILENT=true
+[2020.11.07-06.16.21:536][674]LogSavePackage: Moving '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Saved/Scrat358118B34023F2437595019867CB0BE4.tmp' to '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Content/Lab/Scrat.uasset'
+[2020.11.07-06.16.21:541][674]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lab/ScratController" FILE="../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Content/Lab/ScratController.uasset" SILENT=true
+[2020.11.07-06.16.21:550][674]LogSavePackage: Moving '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Saved/ScratController3D1C90054FB4F94AF15E89A7FBF1AA84.tmp' to '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Content/Lab/ScratController.uasset'
+[2020.11.07-06.16.21:554][674]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Lab/Scrat_BB" FILE="../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Content/Lab/Scrat_BB.uasset" SILENT=true
+[2020.11.07-06.16.21:563][674]LogSavePackage: Moving '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Saved/Scrat_BB480052E04BF995C26D798F90C586C635.tmp' to '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Content/Lab/Scrat_BB.uasset'
+[2020.11.07-06.16.21:575][674]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Kitchen/Fork" FILE="../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Content/Kitchen/Fork.uasset" SILENT=true
+[2020.11.07-06.16.21:592][674]LogSavePackage: Moving '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Saved/ForkC0071D3F463769F48040B495A02E319F.tmp' to '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Content/Kitchen/Fork.uasset'
+[2020.11.07-06.16.21:604][674]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Lab/Scrat.
+[2020.11.07-06.16.21:609][674]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Lab/ScratController.
+[2020.11.07-06.16.21:614][674]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Kitchen/Fork.
+[2020.11.07-06.16.21:634][674]AssetCheck: New page: Asset Save: multiple assets
+[2020.11.07-06.16.21:634][674]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2020.11.07-06.16.21:634][674]LogContentValidation: Display: Validating Blueprint /Game/Lab/Scrat.Scrat
+[2020.11.07-06.16.21:634][674]LogContentValidation: Display: Validating Blueprint /Game/Lab/ScratController.ScratController
+[2020.11.07-06.16.21:634][674]LogContentValidation: Display: Validating BlackboardData /Game/Lab/Scrat_BB.Scrat_BB
+[2020.11.07-06.16.21:634][674]LogContentValidation: Display: Validating Blueprint /Game/Kitchen/Fork.Fork
