@@ -12689,3 +12689,69 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.11.07-17.49.31:863][378]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
 [2020.11.07-17.49.31:863][378]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
 [2020.11.07-17.49.34:993][727]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2020.11.07-18.00.28:165][534]LogSlate: Window 'Project Settings' being destroyed
+[2020.11.07-18.00.28:169][534]LogSlate: Window 'Project Settings' being destroyed
+[2020.11.07-18.01.56:250][ 42]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2020.11.07-18.02.17:066][ 42]LogMainFrame: Project does not require temp target
+[2020.11.07-18.02.17:238][ 42]LogLauncherProfile: Found promoted target with matching version at ../../../Engine/Binaries/Win64/UE4Game.target
+[2020.11.07-18.02.18:313][ 42]UATHelper: Packaging (Windows (64-bit)): Running AutomationTool...
+[2020.11.07-18.02.18:342][ 46]UATHelper: Packaging (Windows (64-bit)): Parsing command line: -ScriptsForProject=C:/Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/MiPan.uproject BuildCookRun -nocompileeditor -installed -nop4 -project=C:/Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/MiPan.uproject -cook -stage -archive -archivedirectory=C:/Users/Anastasia/Desktop -package -ue4exe="C:\Program Files\Epic Games\UE_4.25\Engine\Binaries\Win64\UE4Editor-Cmd.exe" -pak -prereqs -nodebuginfo -targetplatform=Win64 -clientconfig=Development -utf8output
+[2020.11.07-18.02.21:691][437]UATHelper: Packaging (Windows (64-bit)): Setting up ProjectParams for C:\Users\Anastasia\source\repos\FinickyPrune\GameDev\MiPan\MiPan.uproject
+[2020.11.07-18.02.22:524][537]UATHelper: Packaging (Windows (64-bit)): ********** COOK COMMAND STARTED **********
+[2020.11.07-18.02.22:524][537]UATHelper: Packaging (Windows (64-bit)): Running UE4Editor Cook for project C:\Users\Anastasia\source\repos\FinickyPrune\GameDev\MiPan\MiPan.uproject
+[2020.11.07-18.02.22:524][537]UATHelper: Packaging (Windows (64-bit)): Commandlet log file is C:\Program Files\Epic Games\UE_4.25\Engine\Programs\AutomationTool\Saved\Cook-2020.11.08-01.02.22.txt
+[2020.11.07-18.02.22:540][539]UATHelper: Packaging (Windows (64-bit)): Running: C:\Program Files\Epic Games\UE_4.25\Engine\Binaries\Win64\UE4Editor-Cmd.exe C:\Users\Anastasia\source\repos\FinickyPrune\GameDev\MiPan\MiPan.uproject -run=Cook  -TargetPlatform=WindowsNoEditor -fileopenlog -unversioned -abslog="C:\Program Files\Epic Games\UE_4.25\Engine\Programs\AutomationTool\Saved\Cook-2020.11.08-01.02.22.txt" -stdout -CrashForUAT -unattended -NoLogTimes  -UTF8Output
+[2020.11.07-18.02.22:976][591]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: Running engine for game: MiPan
+[2020.11.07-18.02.27:332][996]UATHelper: Packaging (Windows (64-bit)):   LogHAL: Display: Platform has ~ 16 GB [17129033728 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.11.07-18.02.27:998][998]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.11.07-18.02.28:332][999]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.11.07-18.02.28:332][999]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.11.07-18.02.28:332][999]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.11.07-18.02.28:332][999]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.11.07-18.02.28:332][999]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.11.07-18.02.28:332][999]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.11.07-18.02.28:332][999]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.11.07-18.02.28:332][999]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.11.07-18.02.28:332][999]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.11.07-18.02.28:332][999]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.11.07-18.02.28:332][999]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.11.07-18.02.28:332][999]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.11.07-18.02.28:332][999]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.11.07-18.02.28:332][999]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.11.07-18.02.28:332][999]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.11.07-18.02.28:332][999]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.11.07-18.02.28:332][999]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.11.07-18.02.28:332][999]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.11.07-18.02.28:332][999]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.11.07-18.02.28:332][999]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.11.07-18.02.28:332][999]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.11.07-18.02.28:332][999]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.11.07-18.02.28:332][999]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.11.07-18.02.28:333][999]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.11.07-18.02.28:333][999]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.11.07-18.02.28:333][999]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.11.07-18.02.28:333][999]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.11.07-18.02.28:333][999]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Building Assets For WindowsNoEditor
+[2020.11.07-18.02.28:333][999]UATHelper: Packaging (Windows (64-bit)):   LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.11.07-18.02.28:665][  0]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.11.07-18.02.28:999][  1]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.11.07-18.02.28:999][  1]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Anastasia/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.11.07-18.02.28:999][  1]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.11.07-18.02.30:332][  5]UATHelper: Packaging (Windows (64-bit)):   LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.11.07-18.02.30:332][  5]UATHelper: Packaging (Windows (64-bit)):   LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.11.07-18.02.33:494][346]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.11.07-18.02.33:494][346]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Mobile HDR setting 1
+[2020.11.07-18.02.33:527][350]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Creating asset registry
+[2020.11.07-18.02.34:985][525]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Discovering localized assets for cultures: en
+[2020.11.07-18.02.35:068][535]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Unable to read previous cook inisettings for platform WindowsNoEditor invalidating cook
+[2020.11.07-18.02.35:068][535]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Clearing all cooked content for platform WindowsNoEditor
+[2020.11.07-18.02.35:952][641]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Sandbox cleanup took 0.933 seconds for platforms WindowsNoEditor
+[2020.11.07-18.12.02:787][871]LogUObjectHash: Compacting FUObjectHashTables data took  12.28ms
+[2020.11.07-18.12.14:617][740]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.07-18.12.14:617][740]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.07-18.12.28:361][257]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ModSciInteriors/Blueprints/Door_A_BP.Door_A_BP
+[2020.11.07-18.12.33:022][661]LogSlate: Window 'Door_A_BP' being destroyed
+[2020.11.07-18.12.33:041][661]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2020.11.07-18.12.33:041][661]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.07-18.12.33:991][768]LogEditorViewport: Clicking on Actor (LMB): Door_A_BP_C (Door_A_BP)
+[2020.11.07-18.12.35:702][951]LogEditorViewport: Clicking on Actor (context menu): Door_A_BP_C (Door_A_BP)
