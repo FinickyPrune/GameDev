@@ -1468,3 +1468,282 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.11.07-11.08.40:630][117]AssetCheck: New page: Asset Save: multiple assets
 [2020.11.07-11.08.40:630][117]LogContentValidation: Display: Validating Blueprint /Game/Server/Computer.Computer
 [2020.11.07-11.08.40:630][117]LogContentValidation: Display: Validating WidgetBlueprint /Game/Server/PasswordScreen.PasswordScreen
+[2020.11.07-11.50.23:706][100]LogLinker: Warning: Failed to load '/Game/ModSci_EngiProps/Meshes/SM_AlarmLight': Can't find file.
+[2020.11.07-11.50.23:707][100]LogLinker: Warning: Failed to load '/Game/ModSci_EngiProps/Meshes/SM_AlarmLight': Can't find file.
+[2020.11.07-11.50.23:707][100]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/ModSci_EngiProps/Meshes/SM_AlarmLight.SM_AlarmLight'
+[2020.11.07-11.50.25:486][221]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.11.07-11.50.30:358][221]LogStats: FPlatformStackWalk::StackWalkAndDump -  4.872 s
+[2020.11.07-11.50.30:370][221]LogOutputDevice: Error: === Handled ensure: ===
+[2020.11.07-11.50.30:370][221]LogOutputDevice: Error: 
+[2020.11.07-11.50.30:370][221]LogOutputDevice: Error: Ensure condition failed: AssetObj != 0 [File:D:/Build/++UE4/Sync/Engine/Source/Editor/UnrealEd/Private/LevelEditorViewport.cpp] [Line: 1338]
+[2020.11.07-11.50.30:370][221]LogOutputDevice: Error: AssetObj was null (StaticMesh /Game/ModSci_EngiProps/Meshes/SM_AlarmLight.SM_AlarmLight)
+[2020.11.07-11.50.30:370][221]LogOutputDevice: Error: Stack: 
+[2020.11.07-11.50.30:370][221]LogOutputDevice: Error: [Callstack] 0x00007fff0cc1b48b UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.11.07-11.50.30:370][221]LogOutputDevice: Error: [Callstack] 0x00007fff0c48d2f0 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.11.07-11.50.30:370][221]LogOutputDevice: Error: [Callstack] 0x00007fff324b6859 UE4Editor-LevelEditor.dll!UnknownFunction []
+[2020.11.07-11.50.30:370][221]LogOutputDevice: Error: [Callstack] 0x00007fff324cd90b UE4Editor-LevelEditor.dll!UnknownFunction []
+[2020.11.07-11.50.30:370][221]LogOutputDevice: Error: [Callstack] 0x00007fff4b20fc65 UE4Editor-Slate.dll!UnknownFunction []
+[2020.11.07-11.50.30:370][221]LogOutputDevice: Error: [Callstack] 0x00007fff4b2965c0 UE4Editor-Slate.dll!UnknownFunction []
+[2020.11.07-11.50.30:370][221]LogOutputDevice: Error: [Callstack] 0x00007fff4b27fdeb UE4Editor-Slate.dll!UnknownFunction []
+[2020.11.07-11.50.30:370][221]LogOutputDevice: Error: [Callstack] 0x00007fff4b27210a UE4Editor-Slate.dll!UnknownFunction []
+[2020.11.07-11.50.30:370][221]LogOutputDevice: Error: [Callstack] 0x00007fff68347def UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.11.07-11.50.30:370][221]LogOutputDevice: Error: [Callstack] 0x00007fff68335c87 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.11.07-11.50.30:370][221]LogOutputDevice: Error: [Callstack] 0x00007fff6834a619 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.11.07-11.50.30:370][221]LogOutputDevice: Error: [Callstack] 0x00007fff683317d0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.11.07-11.50.30:370][221]LogOutputDevice: Error: [Callstack] 0x00007fff833de6d8 USER32.dll!UnknownFunction []
+[2020.11.07-11.50.30:370][221]LogOutputDevice: Error: [Callstack] 0x00007fff833de119 USER32.dll!UnknownFunction []
+[2020.11.07-11.50.30:370][221]LogOutputDevice: Error: [Callstack] 0x00007fff6834bb34 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.11.07-11.50.30:370][221]LogOutputDevice: Error: [Callstack] 0x00007ff77c5168c4 UE4Editor.exe!UnknownFunction []
+[2020.11.07-11.50.30:370][221]LogOutputDevice: Error: [Callstack] 0x00007ff77c52ba7c UE4Editor.exe!UnknownFunction []
+[2020.11.07-11.50.30:370][221]LogOutputDevice: Error: [Callstack] 0x00007ff77c52bb5a UE4Editor.exe!UnknownFunction []
+[2020.11.07-11.50.30:370][221]LogOutputDevice: Error: [Callstack] 0x00007ff77c53e31d UE4Editor.exe!UnknownFunction []
+[2020.11.07-11.50.30:370][221]LogOutputDevice: Error: [Callstack] 0x00007ff77c54145a UE4Editor.exe!UnknownFunction []
+[2020.11.07-11.50.30:370][221]LogOutputDevice: Error: [Callstack] 0x00007fff849a7034 KERNEL32.DLL!UnknownFunction []
+[2020.11.07-11.50.30:370][221]LogOutputDevice: Error: [Callstack] 0x00007fff8533cec1 ntdll.dll!UnknownFunction []
+[2020.11.07-11.50.30:370][221]LogOutputDevice: Error: 
+[2020.11.07-11.50.30:409][221]LogStats:                SubmitErrorReport -  0.000 s
+[2020.11.07-11.50.52:408][221]LogStats:                    SendNewReport - 21.999 s
+[2020.11.07-11.50.52:408][221]LogStats:             FDebug::EnsureFailed - 26.922 s
+[2020.11.07-11.56.32:305][519]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2020.11.07-11.59.10:504][786]LogLinker: Warning: While loading '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Content/Maps_jam/ThirdPersonExampleMap.umap' failed to load '/Game/Computer_Blueprint': Can't find file.
+[2020.11.07-11.59.10:504][786]LogLinker: Warning: While loading '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Content/Maps_jam/ThirdPersonExampleMap.umap' failed to load '/Game/Computer_Blueprint': Can't find file.
+[2020.11.07-11.59.10:600][786]LogLinker: Warning: While loading '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Content/Maps_jam/ThirdPersonExampleMap.umap' failed to load '/Game/Computer_Blueprint': Can't find file.
+[2020.11.07-11.59.10:600][786]LogLinker: Warning: While loading '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Content/Maps_jam/ThirdPersonExampleMap.umap' failed to load '/Game/Computer_Blueprint': Can't find file.
+[2020.11.07-11.59.10:935][786]LogLinker: Warning: While loading '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Content/Maps_jam/ThirdPersonExampleMap.umap' failed to load '/Game/Computer_Blueprint': Can't find file.
+[2020.11.07-11.59.10:935][786]LogLinker: Warning: While loading '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Content/Maps_jam/ThirdPersonExampleMap.umap' failed to load '/Game/Computer_Blueprint': Can't find file.
+[2020.11.07-11.59.10:937][786]LogLinker: Warning: While loading '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Content/Maps_jam/ThirdPersonExampleMap.umap' failed to load '/Game/Computer_Blueprint': Can't find file.
+[2020.11.07-11.59.10:937][786]LogLinker: Warning: While loading '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Content/Maps_jam/ThirdPersonExampleMap.umap' failed to load '/Game/Computer_Blueprint': Can't find file.
+[2020.11.07-11.59.10:937][786]LogLinker: Warning: While loading '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Content/Maps_jam/ThirdPersonExampleMap.umap' failed to load '/Game/Computer_Blueprint': Can't find file.
+[2020.11.07-11.59.10:937][786]LogLinker: Warning: While loading '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Content/Maps_jam/ThirdPersonExampleMap.umap' failed to load '/Game/Computer_Blueprint': Can't find file.
+[2020.11.07-11.59.10:938][786]LogLinker: Warning: Failed to load '/Game/Computer_Blueprint': Can't find file.
+[2020.11.07-11.59.10:938][786]LogLinker: Warning: Failed to load '/Game/Computer_Blueprint': Can't find file.
+[2020.11.07-11.59.10:938][786]LogLinker: Warning: Failed to load '/Game/Computer_Blueprint': Can't find file.
+[2020.11.07-11.59.10:938][786]LogLinker: Warning: Failed to load '/Game/Computer_Blueprint': Can't find file.
+[2020.11.07-11.59.10:938][786]LogLinker: Warning: Failed to load '/Game/Computer_Blueprint': Can't find file.
+[2020.11.07-11.59.10:938][786]LogLinker: Warning: Failed to load '/Game/Computer_Blueprint': Can't find file.
+[2020.11.07-11.59.10:939][786]LogLinker: Warning: Failed to load '/Game/Computer_Blueprint': Can't find file.
+[2020.11.07-11.59.10:939][786]LogLinker: Warning: Failed to load '/Game/Computer_Blueprint': Can't find file.
+[2020.11.07-11.59.10:939][786]LogLinker: Warning: Failed to load '/Game/Computer_Blueprint': Can't find file.
+[2020.11.07-11.59.10:939][786]LogLinker: Warning: Failed to load '/Game/Computer_Blueprint': Can't find file.
+[2020.11.07-11.59.10:940][786]LogLinker: Warning: Failed to load '/Game/Computer_Blueprint': Can't find file.
+[2020.11.07-11.59.10:941][786]LogLinker: Warning: Failed to load '/Game/Computer_Blueprint': Can't find file.
+[2020.11.07-11.59.10:941][786]LogLinker: Warning: Failed to load '/Game/Computer_Blueprint': Can't find file.
+[2020.11.07-11.59.10:941][786]LogLinker: Warning: Failed to load '/Game/Computer_Blueprint': Can't find file.
+[2020.11.07-11.59.11:200][786]LogTexture: Display: Building textures: T_Wire_Norm (BC5, 512X512)
+[2020.11.07-11.59.11:200][786]LogTexture: Display: Building textures: T_Wire_Rough (AutoDXT, 2048X2048)
+[2020.11.07-11.59.11:200][786]LogTexture: Display: Building textures: T_Metal_Brushed_N (BC5, 2048X2048)
+[2020.11.07-11.59.11:200][786]LogTexture: Display: Building textures: T_WVD_Wires_A_Rough (AutoDXT, 4096X4096)
+[2020.11.07-11.59.11:200][786]LogTexture: Display: Building textures: T_Trims_A_normals (BC5, 4096X4096)
+[2020.11.07-11.59.13:259][786]LogTexture: Display: Building textures: T_StainSteeled_Diff (AutoDXT, 4096X4096)
+[2020.11.07-11.59.13:259][786]LogTexture: Display: Building textures: T_WVD_Wires_A_N_Normals (BC5, 4096X4096)
+[2020.11.07-11.59.13:448][786]LogTexture: Display: Building textures: T_Trims_A_Diffuse (AutoDXT, 4096X4096)
+[2020.11.07-11.59.16:033][786]LogTexture: Display: Building textures: T_WVD_Wires_A_M (AutoDXT, 4096X4096)
+[2020.11.07-11.59.16:033][786]LogTexture: Display: Building textures: T_WVD_Wires_A_Diff (AutoDXT, 4096X4096)
+[2020.11.07-11.59.16:033][786]LogTexture: Display: Building textures: T_ScratchedMetal_Normal (BC5, 4096X4096)
+[2020.11.07-11.59.16:368][786]LogTexture: Display: Building textures: T_BrushedMetal_Rough (AutoDXT, 4096X4096)
+[2020.11.07-11.59.25:152][786]LogTexture: Display: Building textures: T_Wall_Puffy_Diff (AutoDXT, 4096X4096)
+[2020.11.07-11.59.25:152][786]LogTexture: Display: Building textures: T_SolidMask (AutoDXT, 128X128)
+[2020.11.07-11.59.25:152][786]LogTexture: Display: Building textures: T_Wires_B_Rough (AutoDXT, 2048X2048)
+[2020.11.07-11.59.25:152][786]LogTexture: Display: Building textures: T_StainSteeled_Rough (AutoDXT, 4096X4096)
+[2020.11.07-11.59.25:152][786]LogTexture: Display: Building textures: T_SafetySwitch_Rough (AutoDXT, 2048X2048)
+[2020.11.07-11.59.25:152][786]LogTexture: Display: Building textures: T_SafetySwitch_normals (BC5, 4096X4096)
+[2020.11.07-11.59.25:605][786]LogTexture: Display: Building textures: T_SafetySwitch_M (AutoDXT, 4096X4096)
+[2020.11.07-11.59.25:605][786]LogTexture: Display: Building textures: T_BrushedMetal_Diff (AutoDXT, 4096X4096)
+[2020.11.07-11.59.31:431][786]LogTexture: Display: Building textures: T_SafetySwitch_Diff (AutoDXT, 4096X4096)
+[2020.11.07-11.59.31:431][786]LogTexture: Display: Building textures: T_Wire_Decals (AutoDXT, 2048X2048)
+[2020.11.07-11.59.31:431][786]LogTexture: Display: Building textures: T_BaseNorm (BC5, 2048X2048)
+[2020.11.07-11.59.31:431][786]LogTexture: Display: Building textures: T_Pipe_Indent_Norm (BC5, 2048X2048)
+[2020.11.07-11.59.31:431][786]LogTexture: Display: Building textures: T_Pipe_Decals_Mask (AutoDXT, 2048X2048)
+[2020.11.07-11.59.31:431][786]LogTexture: Display: Building textures: T_Screwdriver_normals (BC5, 4096X4096)
+[2020.11.07-11.59.31:431][786]LogTexture: Display: Building textures: T_Screwdriver_M (AutoDXT, 4096X4096)
+[2020.11.07-11.59.31:431][786]LogTexture: Display: Building textures: T_Screwdriver_Diff (AutoDXT, 4096X4096)
+[2020.11.07-11.59.31:432][786]LogTexture: Display: Building textures: T_Trims_A_M (AutoDXT, 4096X4096)
+[2020.11.07-11.59.31:432][786]LogTexture: Display: Building textures: T_Light_B_Diff (AutoDXT, 4096X4096)
+[2020.11.07-11.59.31:432][786]LogTexture: Display: Building textures: T_PipeCoated_A_rough (AutoDXT, 2048X2048)
+[2020.11.07-11.59.31:794][786]LogTexture: Display: Building textures: T_BrushedMetal_Normal (BC5, 4096X4096)
+[2020.11.07-11.59.33:709][786]LogTexture: Display: Building textures: T_PipeCoated_A_normals (BC5, 4096X4096)
+[2020.11.07-11.59.33:715][786]LogMaterial: Display: Missing cached shader map for material M_Base_Trim, compiling. 
+[2020.11.07-11.59.34:437][786]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 24
+[2020.11.07-11.59.34:437][786]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 14
+[2020.11.07-11.59.34:437][786]LogTexture: Display: Building textures: T_Wire_Diff (AutoDXT, 4096X4096)
+[2020.11.07-11.59.43:155][786]LogTexture: Display: Building textures: T_PipeCoated_A (AutoDXT, 4096X4096)
+[2020.11.07-11.59.43:155][786]LogTexture: Display: Building textures: T_ScratchedMetal_Rough (AutoDXT, 4096X4096)
+[2020.11.07-11.59.43:155][786]LogTexture: Display: Building textures: T_ScratchedMetal_Diff (AutoDXT, 4096X4096)
+[2020.11.07-11.59.43:155][786]LogTexture: Display: Building textures: T_Lights_Diff (AutoDXT, 2048X2048)
+[2020.11.07-11.59.43:155][786]LogTexture: Display: Building textures: T_Light_B_Rough (AutoDXT, 2048X2048)
+[2020.11.07-11.59.43:155][786]LogTexture: Display: Building textures: T_Light_B_normals (BC5, 4096X4096)
+[2020.11.07-11.59.43:155][786]LogTexture: Display: Building textures: T_Light_B_M (AutoDXT, 4096X4096)
+[2020.11.07-11.59.43:156][786]LogTexture: Display: Building textures: T_Trims_A_Dirt (AutoDXT, 4096X4096)
+[2020.11.07-11.59.43:156][786]LogTexture: Display: Building textures: T_Pipe_Decals (AutoDXT, 2048X2048)
+[2020.11.07-11.59.43:156][786]LogTexture: Display: Building textures: T_Screwdriver_Rough (AutoDXT, 2048X2048)
+[2020.11.07-11.59.43:169][786]LogMaterial: Display: Missing cached shader map for material M_Base_RegUV1, compiling. 
+[2020.11.07-11.59.43:272][786]LogStaticMesh: Building static mesh SM_Ceiling_Wires_End...
+[2020.11.07-11.59.43:349][786]LogStaticMesh: Built static mesh [0.07s] /Game/ModSci_Engineer/Meshes/SM_Ceiling_Wires_End.SM_Ceiling_Wires_End
+[2020.11.07-11.59.43:823][786]LogTexture: Display: Building textures: T_SAN_EM_M (AutoDXT, 1024X1024)
+[2020.11.07-11.59.43:823][786]LogTexture: Display: Building textures: T_Wall_Puffy_N_normals_b (BC5, 4096X4096)
+[2020.11.07-11.59.46:669][786]LogTexture: Display: Building textures: T_SAN_EM (AutoDXT, 4096X4096)
+[2020.11.07-11.59.46:669][786]LogTexture: Display: Building textures: T_AlarmLight_Rough (AutoDXT, 2048X2048)
+[2020.11.07-11.59.46:669][786]LogTexture: Display: Building textures: T_AlarmLight_normals (BC5, 4096X4096)
+[2020.11.07-11.59.46:772][786]LogTexture: Display: Building textures: T_Wall_Puffy_Rough (AutoDXT, 4096X4096)
+[2020.11.07-11.59.51:938][786]LogTexture: Display: Building textures: T_AlarmLight_M (AutoDXT, 4096X4096)
+[2020.11.07-11.59.51:938][786]LogTexture: Display: Building textures: T_AlarmLight_EM (AutoDXT, 2048X2048)
+[2020.11.07-11.59.51:938][786]LogTexture: Display: Building textures: T_AlarmLight_Diff (AutoDXT, 4096X4096)
+[2020.11.07-11.59.51:938][786]LogTexture: Display: Building textures: T_WireCapClamp_normals (BC5, 4096X4096)
+[2020.11.07-11.59.51:938][786]LogTexture: Display: Building textures: T_WireCapClamp_M (AutoDXT, 4096X4096)
+[2020.11.07-11.59.51:938][786]LogTexture: Display: Building textures: T_WireCapClamp_Diff (AutoDXT, 4096X4096)
+[2020.11.07-11.59.51:938][786]LogTexture: Display: Building textures: T_Wire_Decals_Mask (AutoDXT, 2048X2048)
+[2020.11.07-11.59.51:938][786]LogTexture: Display: Building textures: T_DistrBox_Rough (AutoDXT, 2048X2048)
+[2020.11.07-11.59.51:938][786]LogTexture: Display: Building textures: T_DistrBox_Norm (BC5, 4096X4096)
+[2020.11.07-11.59.51:947][786]LogMaterial: Display: Missing cached shader map for material M_Base_Props, compiling. 
+[2020.11.07-11.59.52:035][786]LogTexture: Display: Building textures: T_Wires_B_M (AutoDXT, 4096X4096)
+[2020.11.07-11.59.53:492][786]LogTexture: Display: Building textures: T_Wires_B_diff (AutoDXT, 4096X4096)
+[2020.11.07-12.00.06:102][786]LogTexture: Display: Building textures: T_DistrBox_Diff (AutoDXT, 4096X4096)
+[2020.11.07-12.00.06:102][786]LogTexture: Display: Building textures: T_Wires_B_normals (BC5, 4096X4096)
+[2020.11.07-12.00.06:102][786]LogTexture: Display: Building textures: T_Wrench_Rough (AutoDXT, 2048X2048)
+[2020.11.07-12.00.06:102][786]LogTexture: Display: Building textures: T_Wrench_Norm (BC5, 4096X4096)
+[2020.11.07-12.00.06:102][786]LogTexture: Display: Building textures: T_Wrench_Diff (AutoDXT, 4096X4096)
+[2020.11.07-12.00.06:102][786]LogTexture: Display: Building textures: T_Wires_B_diff (AutoDXT, 4096X4096)
+[2020.11.07-12.00.06:102][786]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 52
+[2020.11.07-12.00.06:102][786]LogTexture: Display: Building textures: T_WireCapClamp_Rough (AutoDXT, 2048X2048)
+[2020.11.07-12.00.06:102][786]LogTexture: Display: Building textures: T_EnergyNode_A_N_Normals (BC5, 4096X4096)
+[2020.11.07-12.00.06:109][786]LogMaterial: Display: Missing cached shader map for material M_Base_Trim, compiling. 
+[2020.11.07-12.00.06:265][786]LogStaticMesh: Building static mesh SM_WVD_Wires_B...
+[2020.11.07-12.00.06:307][786]LogStaticMesh: Built static mesh [0.04s] /Game/ModSciInteriors/Meshes/SM_WVD_Wires_B.SM_WVD_Wires_B
+[2020.11.07-12.00.06:355][786]LogTexture: Display: Building textures: T_EnergyNode_A_M (AutoDXT, 2048X2048)
+[2020.11.07-12.00.06:969][786]LogTexture: Display: Building textures: T_EnergyNode_A_Diff (AutoDXT, 4096X4096)
+[2020.11.07-12.00.12:507][786]LogTexture: Display: Building textures: T_EnergyNode_A_Rough (AutoDXT, 4096X4096)
+[2020.11.07-12.00.12:540][786]LogStaticMesh: Building static mesh SM_EnergyNode_A...
+[2020.11.07-12.00.12:551][786]LogStaticMesh: Built static mesh [0.01s] /Game/ModSciInteriors/Meshes/SM_EnergyNode_A.SM_EnergyNode_A
+[2020.11.07-12.00.12:628][786]LogStaticMesh: Building static mesh SM_Wire_Wall_A...
+[2020.11.07-12.00.12:650][786]LogStaticMesh: Built static mesh [0.02s] /Game/ModSci_EngiProps/Meshes/SM_Wire_Wall_A.SM_Wire_Wall_A
+[2020.11.07-12.00.12:714][786]LogStaticMesh: Building static mesh SM_Wire_Floor_B...
+[2020.11.07-12.00.12:740][786]LogStaticMesh: Built static mesh [0.03s] /Game/ModSci_EngiProps/Meshes/SM_Wire_Floor_B.SM_Wire_Floor_B
+[2020.11.07-12.00.12:997][786]LogMaterial: Display: Missing cached shader map for material M_Base_Props, compiling. 
+[2020.11.07-12.00.13:017][786]LogStaticMesh: Building static mesh SM_Screwdriver...
+[2020.11.07-12.00.13:021][786]LogStaticMesh: Built static mesh [0.00s] /Game/ModSci_EngiProps/Meshes/SM_Screwdriver.SM_Screwdriver
+[2020.11.07-12.00.13:171][786]LogStaticMesh: Building static mesh SM_AlarmLight...
+[2020.11.07-12.00.13:180][786]LogStaticMesh: Built static mesh [0.01s] /Game/ModSci_EngiProps/Meshes/SM_AlarmLight.SM_AlarmLight
+[2020.11.07-12.00.13:388][786]LogStaticMesh: Building static mesh SM_Ceiling_Wire_Brace...
+[2020.11.07-12.00.13:400][786]LogStaticMesh: Built static mesh [0.01s] /Game/ModSci_Engineer/Meshes/SM_Ceiling_Wire_Brace.SM_Ceiling_Wire_Brace
+[2020.11.07-12.00.13:414][786]LogStaticMesh: Building static mesh SM_Ceiling_Wires_Mid...
+[2020.11.07-12.00.13:418][786]LogStaticMesh: Built static mesh [0.00s] /Game/ModSci_Engineer/Meshes/SM_Ceiling_Wires_Mid.SM_Ceiling_Wires_Mid
+[2020.11.07-12.00.13:941][786]LogStaticMesh: Building static mesh SM_Door_Small_A...
+[2020.11.07-12.00.13:987][786]LogStaticMesh: Built static mesh [0.05s] /Game/ModSci_Engineer/Meshes/SM_Door_Small_A.SM_Door_Small_A
+[2020.11.07-12.00.14:057][786]LogStaticMesh: Building static mesh SM_ElectricBox_B...
+[2020.11.07-12.00.14:079][786]LogStaticMesh: Built static mesh [0.02s] /Game/ModSci_Engineer/Meshes/SM_ElectricBox_B.SM_ElectricBox_B
+[2020.11.07-12.00.14:107][786]LogStaticMesh: Building static mesh SM_ElectricDistribBox...
+[2020.11.07-12.00.14:116][786]LogStaticMesh: Built static mesh [0.01s] /Game/ModSci_Engineer/Meshes/SM_ElectricDistribBox.SM_ElectricDistribBox
+[2020.11.07-12.00.14:465][786]LogStaticMesh: Building static mesh SM_Light_A...
+[2020.11.07-12.00.14:469][786]LogStaticMesh: Built static mesh [0.01s] /Game/ModSci_Engineer/Meshes/SM_Light_A.SM_Light_A
+[2020.11.07-12.00.14:517][786]LogStaticMesh: Building static mesh SM_Light_B...
+[2020.11.07-12.00.14:540][786]LogStaticMesh: Built static mesh [0.02s] /Game/ModSci_EngiProps/Meshes/SM_Light_B.SM_Light_B
+[2020.11.07-12.00.14:702][786]LogStaticMesh: Building static mesh SM_SafetySwitch...
+[2020.11.07-12.00.14:714][786]LogStaticMesh: Built static mesh [0.01s] /Game/ModSci_EngiProps/Meshes/SM_SafetySwitch.SM_SafetySwitch
+[2020.11.07-12.00.14:847][786]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 90
+[2020.11.07-12.00.14:847][786]LogStaticMesh: Building static mesh SM_Wire_Floor_A...
+[2020.11.07-12.00.14:869][786]LogStaticMesh: Built static mesh [0.02s] /Game/ModSci_EngiProps/Meshes/SM_Wire_Floor_A.SM_Wire_Floor_A
+[2020.11.07-12.00.14:880][786]LogStaticMesh: Building static mesh SM_Wrench...
+[2020.11.07-12.00.14:885][786]LogStaticMesh: Built static mesh [0.01s] /Game/ModSci_EngiProps/Meshes/SM_Wrench.SM_Wrench
+[2020.11.07-12.00.14:949][786]LogStaticMesh: Building static mesh SM_WVB_Wire...
+[2020.11.07-12.00.14:962][786]LogStaticMesh: Built static mesh [0.01s] /Game/ModSciInteriors/Meshes/SM_WVB_Wire.SM_WVB_Wire
+[2020.11.07-12.00.15:014][786]LogStaticMesh: Building static mesh SM_WVD_Wires_A...
+[2020.11.07-12.00.15:037][786]LogStaticMesh: Built static mesh [0.02s] /Game/ModSciInteriors/Meshes/SM_WVD_Wires_A.SM_WVD_Wires_A
+[2020.11.07-12.00.15:153][786]LogMaterial: Display: Missing cached shader map for material M_AlarmLight_Glass, compiling. 
+[2020.11.07-12.00.15:507][786]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 80
+[2020.11.07-12.00.15:507][786]LogMaterial: Display: Missing cached shader map for material M_Base_LightTrim, compiling. 
+[2020.11.07-12.00.15:581][786]LogMaterial: Display: Missing cached shader map for material M_Base_Pipes, compiling. 
+[2020.11.07-12.00.15:592][786]LogMaterial: Display: Missing cached shader map for material M_Base_Pipes, compiling. 
+[2020.11.07-12.00.15:649][786]LogMaterial: Display: Missing cached shader map for material M_Base_Props, compiling. 
+[2020.11.07-12.00.15:691][786]LogMaterial: Display: Missing cached shader map for material M_Base_Solid, compiling. 
+[2020.11.07-12.00.15:725][786]LogMaterial: Display: Missing cached shader map for material M_SolidLight, compiling. 
+[2020.11.07-12.00.15:959][786]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps_jam/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.11.07-12.00.16:020][786]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2020.11.07-12.00.16:029][786]Cmd: MAP LOAD FILE="../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Content/Maps_jam/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.07-12.00.16:029][786]LightingResults: New page: Lighting Build
+[2020.11.07-12.00.16:029][786]LoadErrors: New page: Loading map: ThirdPersonExampleMap.umap
+[2020.11.07-12.00.16:110][786]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.11.07-12.00.16:133][786]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.07-12.00.16:133][786]MapCheck: New page: Map Check
+[2020.11.07-12.00.16:133][786]LightingResults: New page: Lighting Build
+[2020.11.07-12.00.16:162][786]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D1107A8600), frame # 365786
+[2020.11.07-12.00.16:162][786]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D110783B00), frame # 365786
+[2020.11.07-12.00.16:176][786]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2020.11.07-12.00.16:192][786]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.07-12.00.16:192][786]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.11.07-12.00.16:192][786]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D11076B600), frame # 365786
+[2020.11.07-12.00.16:192][786]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D1FBDF3100), frame # 365786
+[2020.11.07-12.00.16:239][786]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2020.11.07-12.00.16:258][786]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.07-12.00.16:258][786]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,138ms to complete.
+[2020.11.07-12.00.16:258][786]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.229
+[2020.11.07-12.00.16:280][786]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': Computer_Blueprint_C /Game/Maps_jam/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Computer_Blueprint
+[2020.11.07-12.00.16:280][786]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SM_Door_Small_UI': Computer_Blueprint_C /Game/Maps_jam/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Computer_Blueprint
+[2020.11.07-12.00.16:280][786]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SM_Door_Small_UI1': Computer_Blueprint_C /Game/Maps_jam/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Computer_Blueprint
+[2020.11.07-12.00.17:851][835]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 221
+[2020.11.07-12.00.18:234][878]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 211
+[2020.11.07-12.00.22:241][349]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 201
+[2020.11.07-12.00.22:480][378]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 191
+[2020.11.07-12.00.26:040][757]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 181
+[2020.11.07-12.00.26:447][805]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 171
+[2020.11.07-12.00.29:449][137]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 161
+[2020.11.07-12.00.30:816][287]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 151
+[2020.11.07-12.00.32:493][488]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 141
+[2020.11.07-12.00.42:929][410]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 131
+[2020.11.07-12.00.46:386][715]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 121
+[2020.11.07-12.00.52:457][437]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 111
+[2020.11.07-12.00.58:590][ 26]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 101
+[2020.11.07-12.00.59:886][131]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 91
+[2020.11.07-12.01.02:437][385]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 81
+[2020.11.07-12.01.03:756][537]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 71
+[2020.11.07-12.01.05:633][697]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 61
+[2020.11.07-12.01.07:615][911]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 51
+[2020.11.07-12.01.07:905][942]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_AlarmLight)
+[2020.11.07-12.01.08:607][  6]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 41
+[2020.11.07-12.01.10:772][235]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x469)
+[2020.11.07-12.01.11:568][325]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 31
+[2020.11.07-12.01.12:177][398]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 21
+[2020.11.07-12.01.15:111][748]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 11
+[2020.11.07-12.01.15:970][821]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2020.11.07-12.01.16:621][899]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2
+[2020.11.07-12.01.19:697][251]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x411)
+[2020.11.07-12.01.20:270][316]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wrench)
+[2020.11.07-12.02.16:467][794]LogStaticMesh: Building static mesh SM_ElectricDistribBox...
+[2020.11.07-12.02.16:494][794]LogTexture: Display: Building textures: T_Door_UI_Locked (AutoDXT, 1024X1024)
+[2020.11.07-12.02.16:515][794]LogStaticMesh: Built static mesh [0.05s] /Game/ModSciInteriors/Meshes/SM_ElectricDistribBox.SM_ElectricDistribBox
+[2020.11.07-12.02.16:522][794]LogStaticMesh: Building static mesh SM_Door_Small_UI...
+[2020.11.07-12.02.16:542][794]LogStaticMesh: Built static mesh [0.02s] /Game/ModSciInteriors/Meshes/SM_Door_Small_UI.SM_Door_Small_UI
+[2020.11.07-12.02.16:546][794]LogMaterial: Display: Missing cached shader map for material M_Base_BasicUI, compiling. 
+[2020.11.07-12.02.16:572][794]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 12
+[2020.11.07-12.02.16:572][794]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2020.11.07-12.09.10:631][626]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2020.11.07-12.09.10:719][626]LogSavePackage: Moving '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Saved/ThirdPersonExampleMap_Auto4AFDAD5704342C26A1D4012A3F8A57A7F.tmp' to '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Saved/Autosaves/Game/Maps_jam/ThirdPersonExampleMap_Auto4.umap'
+[2020.11.07-12.09.10:721][626]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps_jam/ThirdPersonExampleMap' took 0.127
+[2020.11.07-12.09.10:721][626]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.127
+[2020.11.07-12.44.08:998][655]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.07-12.44.08:998][655]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.07-12.44.10:354][760]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2020.11.07-12.44.52:071][369]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x437)
+[2020.11.07-12.44.52:846][455]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x437)
+[2020.11.07-12.44.53:586][541]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x443)
+[2020.11.07-12.44.54:109][598]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x434)
+[2020.11.07-12.44.54:581][649]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x438)
+[2020.11.07-12.44.55:103][706]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x403)
+[2020.11.07-12.44.56:319][844]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x438)
+[2020.11.07-12.44.56:847][901]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x434)
+[2020.11.07-12.44.57:287][948]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x437)
+[2020.11.07-12.44.57:983][ 26]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x443)
+[2020.11.07-12.44.58:537][ 87]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x437)
+[2020.11.07-12.44.59:114][150]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x434)
+[2020.11.07-12.44.59:541][195]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x438)
+[2020.11.07-12.44.59:997][244]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x403)
+[2020.11.07-12.46.04:477][432]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2020.11.07-12.46.04:522][432]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2020.11.07-12.46.04:590][432]LogSavePackage: Moving '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Saved/ThirdPersonExampleMap757F75FD4CA08FEB5F5D6B90C0C4349A.tmp' to '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Content/Maps_jam/ThirdPersonExampleMap.umap'
+[2020.11.07-12.46.04:616][432]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.122
+[2020.11.07-12.46.04:724][432]LogSavePackage: Moving '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Saved/ThirdPersonExampleMap_BuiltDataFA0D8BAD4656F4D823ACE9A8B753F1DD.tmp' to '../../../../../../Users/Anastasia/source/repos/FinickyPrune/GameDev/MiPan/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.11.07-12.46.04:740][432]AssetCheck: New page: Asset Save: multiple assets
+[2020.11.07-12.46.04:740][432]LogContentValidation: Display: Validating World /Game/Maps_jam/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.11.07-12.46.04:740][432]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
